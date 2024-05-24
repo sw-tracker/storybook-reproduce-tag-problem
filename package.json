@@ -1,0 +1,47 @@
+{
+  "name": "my-view",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "libs/my-components",
+    "libs/my-components2",
+    "libs/my-components3"
+  ],
+  "engines": {
+    "npm": "^10.0.0",
+    "node": "^18.20.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@svgr/cli": "7.0.0",
+    "concurrently": "8.0.1",
+    "cross-env": "7.0.3",
+    "eslint": "8.37.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-no-only-tests": "3.1.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-unicorn": "46.0.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "formik": "2.2.9",
+    "istanbul-merge": "2.0.0",
+    "jest-sonar-reporter": "2.0.0",
+    "nyc": "15.1.0",
+    "playwright": "1.44.1",
+    "postcss": "8.4.21",
+    "sonarqube-scanner": "3.0.1",
+    "wait-on": "7.2.0",
+    "webpack": "5.76.3"
+  },
+  "proxy": "http://localhost:8080"
+}
